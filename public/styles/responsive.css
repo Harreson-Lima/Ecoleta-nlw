@@ -1,0 +1,136 @@
+@media (max-width: 900px) {
+    #page-home {
+        height: 100vh;
+        background-position: 70vw;
+    } 
+
+    #page-home .content {
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home header a {
+        position: absolute;
+        bottom: 30px;
+
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    #page-home main {
+        align-items: center;
+    }
+
+    #page-search-results .cards {
+        grid-template-columns: 1fr;
+    }
+
+    #page-search-results .cards img {
+        width: 70%;
+        height: auto;
+    }
+    #page-search-results .cards h3 {
+        width: 65%;
+    }
+    form {
+        width: 100%;
+    }
+    form h1 {
+        font-size: 26px;
+    }
+    
+    form legend {
+        margin-bottom: 20px;
+    }
+    
+    form legend h2 {
+        font-size: 18px;
+    }
+
+    form legend span {
+        font-size: 12px;
+    }
+    
+    form input, form select {
+        width: 100%;
+    }
+    
+    form label {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    #page-create-point form .field-group {
+        flex-direction: column;
+    }
+    
+    #page-create-point form .field-group .field + .field {
+        flex-direction: column;
+        margin-left: 0;
+    }
+    
+    .items-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+    }
+    
+    .items-grid li{
+        background-color: #D3D3D3;
+    
+        border: 2px solid #D3D3D3;
+        border-radius: 8px;
+
+        font-size: 12px;
+    
+        height: 130px;
+        width: 100px;
+    
+        padding: 12px 10px 6px;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    
+        text-align: center;
+    
+        cursor: pointer;
+    }
+    form button {
+        width: 85%;
+    }
+    .items-grid li img,
+    .items-grid li span {
+        pointer-events: none;
+    }
+}
+
+
+@media (min-width: 1700px){
+    #page-home {
+        background-position: 40vw;
+    } 
+}
+
+@media (max-height: 460px){
+    #page-home {
+        height: 120vh;  
+        
+    } 
+    #page-home header a {
+        position: absolute;
+
+
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    #page-home main h1 {
+        font-size: 20px;
+    }
+    #page-home main p {
+        font-size: 18px;
+        line-height: 38px;
+        margin-top: 24px;
+    }
+}
