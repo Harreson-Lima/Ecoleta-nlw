@@ -1,0 +1,18 @@
+<div id="modal" class="point">
+    <div class="content">
+        <img src="/assets/check.svg" alt="Cadastro comcluído">
+        <h1>Cadastro concluído</h1>
+    </div>
+</div>
+
+<script>
+
+setTimeout(() => {
+    window.Location = "/"
+}, 2000)
+
+const cliq = document.querySelector(".point");
+cliq.addEventListener("click", () => {
+    cliq.classList.toggle("hide");
+})
+</script>

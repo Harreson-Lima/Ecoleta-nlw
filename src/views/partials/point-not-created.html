@@ -1,0 +1,18 @@
+<div id="modal" class="point">
+    <div class="content">
+        <h1>Cadastro não concluído</h1>
+        <p>Por favor, verifique se todos os dados foram preenchidos e tente novamente!</p>
+    </div>
+</div>
+
+<script>
+
+setTimeout(() => {
+    window.Location = "/"
+}, 2000)
+
+const cliq = document.querySelector(".point");
+cliq.addEventListener("click", () => {
+    cliq.classList.toggle("hide");
+})
+</script>
