@@ -90,3 +90,26 @@
 #modal.hide {
     display: none;
 }
+
+/* this is for modal point created */
+
+#modal.point .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#modal.point h1{
+    color: white; 
+    margin-top: 32px;
+}
+
+#modal.point p{
+    color: var(--primary-color); 
+
+    margin-top: 12px;
+
+    font-size: 22px;
+    text-align: center;
+}
